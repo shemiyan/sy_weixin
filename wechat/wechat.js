@@ -10,7 +10,7 @@ var api={
 module.exports=function(){
 
     function Wechat(opts) {
-        console.log(opts);
+
         var that = this;
         this.appID = opts.appID;
         this.appSecret = opts.appSecret;
